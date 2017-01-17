@@ -1,0 +1,153 @@
+.share-in-toggle {
+	padding: 7px 18px;
+	background-color: #333;
+	display: block;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	font-family: arial;
+}
+
+.share-in-toggle:focus,
+.share-in-toggle:active,
+.share-in-toggle:hover {
+	color: #fff;
+	opacity: .8;
+}
+
+.share-in-toggle i.fa {
+	margin-right: 3px;
+}
+
+.share-in ul {
+	padding: 0;
+	margin: 0;
+	box-shadow: 0 8px 16px #ddd;
+	width: 50px;
+	margin-top: 10px;
+	position: absolute;
+  transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  left: 50%;
+  top: 55px;
+	display: none;
+}
+
+.share-in ul li {
+	list-style: none;
+	position: relative;
+}
+
+.share-in ul li a {
+	display: inline-block;
+	background-color: #fff;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #666;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+	transition: all .3s;
+	-moz-transition: all .3s;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+}
+
+.share-in ul li:last-child a {
+	border-bottom: 0;
+}
+
+.share-in ul li:first-child a {
+	border-top: 3px solid #333;
+}
+
+.share-in ul li:first-child:before {
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  display: inline-block;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #333;
+  border-left: 5px solid transparent;
+  border-bottom-color: #333;
+  content: '';
+}
+
+
+.share-in ul li a:hover {
+	color: #fff;
+}
+
+.share-in ul li.facebook a:hover {
+	background-color: #3370AA;
+}
+
+.share-in ul li.twitter a:hover {
+	background-color: #0BBCFF;
+}
+
+.share-in ul li.google_plus a:hover {
+	background-color: #D6492B;
+}
+
+.share-in ul li.linkedin a:hover {
+	background-color: #2274B9;
+}
+
+.share-in ul li.pinterest a:hover {
+	background-color: #E90514;
+}
+
+.share-in-tooltip {
+	position: absolute;
+	background-color: #333;
+	padding: 0 7px;
+	font-size: 12px;
+	top: 10px;
+	left: 60px;
+	color: #fff;
+	font-family: arial;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+
+.share-in-tooltip:before {
+  position: absolute;
+  top: 13px;
+  left: -6px;
+  display: inline-block;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #333;
+  border-left: 5px solid transparent;
+  border-bottom-color: #333;
+  content: '';
+  transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+}
+
+.badge {
+	font-size: 13px;
+	padding: 3px 5px;
+	background-color: #3498db;
+	border-radius: 3px;
+	color: #fff;
+}
+
+.badge:hover {
+	color: #fff;
+	opacity: .7;
+}
